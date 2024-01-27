@@ -1,0 +1,230 @@
+@import url('https://fonts.googleapis.com/css2?family=Nunito:wght@200;300;400;500;600;700;900&family=Playfair+Display:ital,wght@0,400;0,500;0,600;1,400;1,500;1,600&family=Roboto:wght@100;300;400;500;700&display=swap');
+
+
+@media (min-width: 530px) and (max-width: 768px){
+	
+body {
+  display: flex;
+  flex-direction: column;
+  
+}
+
+header img {
+  height: 40px;
+}
+
+body header {
+  display: flex;
+  justify-content: space-between 
+
+}
+
+header a {
+  margin: 10px;
+  font-family: 'Nunito', sans-serif;
+  color: red;
+
+}
+
+header button {
+  margin: 10px;
+  border-radius: 10px;
+  height: 25px;
+  width: 100px;
+  background-color: white;
+  border: 1px solid grey;
+}
+
+header #bag {
+  margin: 10px;
+  color: red;
+ font-size: 25px;
+
+}
+
+header #user {
+  margin: 10px;
+  color: red;
+  font-size: 25px;
+}
+
+main h2{
+  font-family: 'Nunito', sans-serif;
+  font-weight: 600;
+  margin-top: 20px;
+  font-size: 25px ;
+
+}
+
+main {
+  padding: 20px ;
+}
+
+#text {
+  height: 45px;
+  border-radius: 5px;
+  border: 1px solid grey;
+}
+
+#button {
+  height: 45px;
+  border-radius: 5px;
+  background-color: red;
+  color: white;
+  border: none;
+}
+
+#busca {
+  margin-top: 20px;
+  display: flex;
+  justify-content: space-between ;
+}
+
+#viagem {
+  border: 1px solid grey;
+  width: 200px;
+ display: flex;
+ flex-direction: row;
+ padding: 20px;
+ justify-content: center;
+ align-items: center;
+ gap: 8px;
+ border-radius: 5px;
+ margin-top: 10px;
+}
+
+#viagem i {
+  font-size: 40px;
+}
+
+#viagem h3 {
+  font-family: 'Nunito', sans-serif;
+  font-weight: 700;
+}
+
+#viagem span{
+  font-family: 'Nunito', sans-serif;
+  margin-top: 10px;
+  font-size: 15px;
+}
+
+#estadia {
+  background-color: red;
+  margin-top: 20px;
+  border-radius: 10px;
+  padding: 30px;
+}
+
+#estadia h3 {
+  font-family: 'Nunito', sans-serif;
+  font-size: 25px;
+  color: white;
+  height: 30px;
+  font-weight: 900;
+  
+}
+
+#busque {
+  margin-top: 20px;
+  font-family: 'Nunito', sans-serif;
+  font-weight: 600;
+  font-size: 25px;
+
+}
+
+
+#resort {
+  border: 1px solid grey;
+ height: 60px;
+ width: 60px;
+ border-radius: 50%;
+ 
+}
+
+#facilita {
+  margin-top: 20px;
+  display: flex;
+  justify-content: space-between ;
+}
+
+#resort i {
+  display: flex;
+  justify-content: center;
+  font-size: 40px;
+  margin-top: 10px;
+}
+
+#name {
+  display: flex;
+  margin: 10px;
+  justify-content: space-between ;
+ 
+}
+
+  #ideal {
+    font-family: 'Nunito', sans-serif;
+    font-weight: 600;
+    display: flex;
+    font-size: 15px;
+    
+    }
+
+    #explorar h3 {
+      margin-top: 35px;
+      font-family: 'Nunito', sans-serif;
+      font-weight: 600;
+      font-size: 25px;
+
+    }
+
+    div span {
+      font-family: 'Nunito', sans-serif;
+      font-weight: 600;
+      font-size: 25px;
+    }
+
+    #fac-flex {
+      display: flex;
+      flex-direction: column;
+      align-items: center;
+      gap: 10px;
+      
+    }
+
+    #sessao-opcao {
+      display: flex;
+      margin-top: 10px;
+      flex-direction: row;
+      gap: 10px;
+      justify-content: space-between;
+      
+    }
+
+    #opcoes {
+      border: 1px solid grey;
+      border-radius: 10px;
+      overflow: hidden;
+      
+    }
+   
+    #img-destinos img {
+      height: 100px ;
+      overflow: hidden;
+    }
+
+    #nome-lugar  {
+      font-family: 'Nunito', sans-serif;
+      padding: 10px;
+    }
+
+    #nome-lugar h3 {
+      margin-top: 10px;
+      font-weight: 700;
+    }
+
+    #nome-lugar span {
+      font-weight: 300;
+      font-size: 15px;
+    }
+
+}
